@@ -1,0 +1,107 @@
+info Ply: 1
+info Color to move: Black
+info White Monarch: d0
+info Black Monarch: b7
+info
+info 7  -- nn -- -- -- -- -- --
+info 6  -- -- -- -- -- -- -- --
+info 5  -- sw -- sw -- sw -- sw
+info 4  se -- se -- se -- se --
+info 3  NE -- NE -- NE -- NE --
+info 2  -- NW -- SE -- NW -- NW
+info 1  -- -- -- -- -- -- -- --
+info 0  -- -- -- SS -- -- -- --
+info     a  b  c  d  e  f  g  h 
+DoneDisplay
+
+move victims 0
+info Ply: 2
+info Color to move: White
+info White Monarch: d0
+info Black Monarch: b7
+info
+info 7  -- nn -- -- -- -- -- --
+info 6  -- -- -- -- -- -- -- --
+info 5  -- ne -- sw -- sw -- sw
+info 4  se -- se -- se -- se --
+info 3  NE -- NE -- NE -- NE --
+info 2  -- NW -- SE -- NW -- NW
+info 1  -- -- -- -- -- -- -- --
+info 0  -- -- -- SS -- -- -- --
+info     a  b  c  d  e  f  g  h 
+DoneDisplay
+
+move victims 0
+info Ply: 3
+info Color to move: Black
+info White Monarch: d0
+info Black Monarch: b7
+info
+info 7  -- nn -- -- -- -- -- --
+info 6  -- -- -- -- -- -- -- --
+info 5  -- ne -- sw -- sw -- sw
+info 4  se NE se -- se -- se --
+info 3  NE -- -- -- NE -- NE --
+info 2  -- NW -- SE -- NW -- NW
+info 1  -- -- -- -- -- -- -- --
+info 0  -- -- -- SS -- -- -- --
+info     a  b  c  d  e  f  g  h 
+DoneDisplay
+
+move victims 0
+info Ply: 4
+info Color to move: White
+info White Monarch: d0
+info Black Monarch: b7
+info
+info 7  -- ee -- -- -- -- -- --
+info 6  -- -- -- -- -- -- -- --
+info 5  -- ne -- sw -- sw -- sw
+info 4  se NE se -- se -- se --
+info 3  NE -- -- -- NE -- NE --
+info 2  -- NW -- SE -- NW -- NW
+info 1  -- -- -- -- -- -- -- --
+info 0  -- -- -- SS -- -- -- --
+info     a  b  c  d  e  f  g  h 
+DoneDisplay
+
+move victims 0
+info depth 1 move_no 1 time (microsec) 123 nodes 104 nps 843800
+info score cp -199 pv b2a1
+info depth 1 move_no 2 time (microsec) 176 nodes 149 nps 842802
+info score cp -123 pv e3R
+info depth 1 move_no 7 time (microsec) 298 nodes 251 nps 841829
+info score cp -122 pv b4c3
+info depth 1 move_no 13 time (microsec) 409 nodes 360 nps 878312
+info score cp 6 pv d0R
+info depth 2 move_no 1 time (microsec) 2144 nodes 1554 nps 724699
+info score cp -76 pv d0R f5e6
+info depth 2 move_no 15 time (microsec) 4388 nodes 3556 nps 810323
+info score cp -61 pv b4b6 b7a6 d0R
+info depth 3 move_no 1 time (microsec) 79837 nodes 22761 nps 285092
+info score cp -45 pv b4b6 f5e6 d0c1 b7a6 c1U c4b3
+info depth 4 move_no 1 time (microsec) 253104 nodes 77166 nps 304877
+info score cp 0 pv b4b6 f5e6 d0c1 d5c6 c1U b7a6
+info depth 5 move_no 1 time (microsec) 585096 nodes 172481 nps 294790
+info score cp -17 pv b4b6 f5e6 d0c1 b7a6 c1U c4U c1d0 g4R
+info depth 5 move_no 34 time (microsec) 2226390 nodes 781517 nps 351024
+info score cp 88 pv f2L e4d3 d0U g4f3 d0c1
+info depth 6 move_no 1 time (microsec) 3714735 nodes 1353387 nps 364329
+info score cp 55 pv f2L d5c6 d0U b7R h2g1 f5R g1f2 e4R e3e5 g4f5
+info depth 7 move_no 1 time (microsec) 15881818 nodes 6284594 nps 395709
+info score cp -5 pv f2L e4d3 d0c1 c4R d2c3 d5c6 c1U b7R e3L f5g6 b4d4 a4a2
+info depth 8 move_no 1 time (microsec) -2147483648 nodes 32487495 nps 3807
+info score cp -63 pv f2L e4d3 d0U d3d1 f2e1 d5e4 g3f2 f5e6 d0c1
+info depth 8 move_no 2 time (microsec) -2147483648 nodes 54747535 nps 6335
+info score cp 0 pv b4b6 b7a6 a3a5 e4d3 d0c1 d3c2 c1U c4d3 c1b0 a6R
+info depth 9 move_no 1 time (microsec) -2147483648 nodes 143490479 nps 16427
+info score cp -27 pv b4b6 b7a6 a3a5 e4d3 d2c3 d3U c3L f5e6 c3d4 c4L d0U d5c6 e3R a6b7 e3d4 b7a6
+info depth 9 move_no 15 time (microsec) -2147483648 nodes 343480190 nps 38410
+info score cp 0 pv b4L f5e6 f2L e6f7 h2g1 b7c6 d0U e4d3 d0c1 d3d1 g3L f7e6
+info depth 9 move_no 36 time (microsec) -2147483648 nodes 838449853 nps 88075
+info score cp 20 pv f2e1 f5e6 b4b6 b7a6 e3L e6d7 a3a5 e4d3 d0R g4f3 g3h4 h5g4
+info depth 10 move_no 1 time (microsec) -2147483648 nodes 2153995531 nps 184989
+info score cp 21 pv f2e1 f5e6 b4b6 d5U h2g1 a4b3 d0U b7a6 b2R e4f5 d2c3 e6d7 c3d4 b3b1 e3U f5R
+info depth 11 move_no 1 time (microsec) -2147483648 nodes 11001129981 nps 436746
+info score cp 66 pv f2e1 f5e6 b4b6 b7a6 e3L a4b3 h2L g4h3 d0U h3h1 e1L e6d7 e3d4 c4d3 b2b4 a6b5
+bestmove f2e1

@@ -1,0 +1,4 @@
+move d0R
+move b7R
+go depth 11
+quit

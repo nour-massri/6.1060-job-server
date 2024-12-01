@@ -1,0 +1,46 @@
+info Ply: 1
+info Color to move: Black
+info White Monarch: d0
+info Black Monarch: b7
+info
+info 7  -- nn -- -- -- -- -- --
+info 6  -- -- -- -- -- -- -- --
+info 5  -- sw -- sw -- sw -- sw
+info 4  se -- se -- se -- se --
+info 3  NE -- NE -- NE -- NE --
+info 2  -- NW -- NW -- NW -- NW
+info 1  -- -- -- -- -- -- -- --
+info 0  -- -- -- WW -- -- -- --
+info     a  b  c  d  e  f  g  h 
+DoneDisplay
+
+move victims 0
+info depth 1 move_no 1 time (microsec) 75 nodes 44 nps 586168
+info score cp -168 pv b5R
+info depth 1 move_no 3 time (microsec) 120 nodes 89 nps 735570
+info score cp -123 pv b5U
+info depth 1 move_no 8 time (microsec) 186 nodes 137 nps 733000
+info score cp -107 pv e4d3
+info depth 1 move_no 15 time (microsec) 270 nodes 187 nps 690259
+info score cp -33 pv b7R
+info depth 2 move_no 1 time (microsec) 804 nodes 302 nps 375467
+info score cp -110 pv b7R a3b4
+info depth 3 move_no 1 time (microsec) 5585 nodes 6791 nps 1215816
+info score cp -20 pv b7R e3d4 a4b3
+info depth 4 move_no 1 time (microsec) 23678 nodes 31705 nps 1339002
+info score cp -76 pv b7R a3b4 b7c6 e3d4
+info depth 5 move_no 1 time (microsec) 159087 nodes 204246 nps 1283862
+info score cp -31 pv b7R a3b4 b7c6 e3d4 c4d3
+info depth 6 move_no 1 time (microsec) 1012467 nodes 1012777 nps 1000305
+info score cp -6 pv b7R a3b4 e4d3 d0c1 b7a6 g3f4 d3d1 c1U
+info depth 7 move_no 1 time (microsec) 9768014 nodes 5737490 nps 587375
+info score cp 5 pv b7R c3R a4b3 d0R d5L f2R e4R b2c1
+info depth 8 move_no 1 time (microsec) -2147483648 nodes 26969738 nps 2630
+info score cp 18 pv b7R c3R e4U e3d4 f5e6 g3f4 a4b3 b2c1
+info depth 9 move_no 1 time (microsec) -2147483648 nodes 157386670 nps 14976
+info score cp 36 pv b7R a3b4 e4d3 d0c1 b7a6 g3h4 c4U c3U d5c6
+info depth 10 move_no 1 time (microsec) -2147483648 nodes 1009216245 nps 85838
+info score cp 48 pv b7R a3b4 e4d3 f2e1 b7a6 g3f4 c4L f4L a4L b4L
+info depth 11 move_no 1 time (microsec) -2147483648 nodes 9792784905 nps 419637
+info score cp 45 pv b7R g3f4 a4b3 b2c1 g4h3 d2L e4g4 d0R f5e6 h2g3 d5U c3b4
+bestmove b7R

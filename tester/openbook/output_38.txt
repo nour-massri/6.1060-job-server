@@ -1,0 +1,171 @@
+info Ply: 1
+info Color to move: Black
+info White Monarch: d0
+info Black Monarch: b7
+info
+info 7  -- nn -- -- -- -- -- --
+info 6  -- -- -- -- -- -- -- --
+info 5  -- sw -- sw -- sw -- sw
+info 4  se -- se -- se -- se --
+info 3  NE -- NE -- NE -- NE --
+info 2  -- NW -- SE -- NW -- NW
+info 1  -- -- -- -- -- -- -- --
+info 0  -- -- -- SS -- -- -- --
+info     a  b  c  d  e  f  g  h 
+DoneDisplay
+
+move victims 0
+info Ply: 2
+info Color to move: White
+info White Monarch: d0
+info Black Monarch: b7
+info
+info 7  -- nn -- -- -- -- -- --
+info 6  -- -- -- -- -- -- -- --
+info 5  -- ne -- sw -- sw -- sw
+info 4  se -- se -- se -- se --
+info 3  NE -- NE -- NE -- NE --
+info 2  -- NW -- SE -- NW -- NW
+info 1  -- -- -- -- -- -- -- --
+info 0  -- -- -- SS -- -- -- --
+info     a  b  c  d  e  f  g  h 
+DoneDisplay
+
+move victims 0
+info Ply: 3
+info Color to move: Black
+info White Monarch: d0
+info Black Monarch: b7
+info
+info 7  -- nn -- -- -- -- -- --
+info 6  -- -- -- -- -- -- -- --
+info 5  -- ne -- sw -- sw -- sw
+info 4  se -- se -- se -- se --
+info 3  NE -- NE -- NE -- NE --
+info 2  -- NW -- SE -- SW -- NW
+info 1  -- -- -- -- -- -- -- --
+info 0  -- -- -- SS -- -- -- --
+info     a  b  c  d  e  f  g  h 
+DoneDisplay
+
+move victims 0
+info Ply: 4
+info Color to move: White
+info White Monarch: d0
+info Black Monarch: b7
+info
+info 7  -- nn -- -- -- -- -- --
+info 6  -- -- -- -- -- -- -- --
+info 5  -- ne -- nw -- sw -- sw
+info 4  se -- se -- se -- se --
+info 3  NE -- NE -- NE -- NE --
+info 2  -- NW -- SE -- SW -- NW
+info 1  -- -- -- -- -- -- -- --
+info 0  -- -- -- SS -- -- -- --
+info     a  b  c  d  e  f  g  h 
+DoneDisplay
+
+move victims 0
+info Ply: 5
+info Color to move: Black
+info White Monarch: d0
+info Black Monarch: b7
+info
+info 7  -- nn -- -- -- -- -- --
+info 6  -- -- -- -- -- -- -- --
+info 5  -- ne -- nw -- sw -- sw
+info 4  se NE se -- se -- se --
+info 3  NE -- -- -- NE -- NE --
+info 2  -- NW -- SE -- SW -- NW
+info 1  -- -- -- -- -- -- -- --
+info 0  -- -- -- SS -- -- -- --
+info     a  b  c  d  e  f  g  h 
+DoneDisplay
+
+move victims 0
+info Ply: 6
+info Color to move: White
+info White Monarch: d0
+info Black Monarch: b7
+info
+info 7  -- ss -- -- -- -- -- --
+info 6  -- -- -- -- -- -- -- --
+info 5  -- ne -- nw -- sw -- sw
+info 4  se NE se -- se -- se --
+info 3  NE -- -- -- NE -- NE --
+info 2  -- NW -- SE -- SW -- NW
+info 1  -- -- -- -- -- -- -- --
+info 0  -- -- -- SS -- -- -- --
+info     a  b  c  d  e  f  g  h 
+DoneDisplay
+
+move victims 0
+info Ply: 7
+info Color to move: Black
+info White Monarch: d0
+info Black Monarch: b7
+info
+info 7  -- ss -- -- -- -- -- --
+info 6  -- NE -- -- -- -- -- --
+info 5  -- -- -- nw -- sw -- sw
+info 4  se -- se -- se -- se --
+info 3  NE -- -- -- NE -- NE --
+info 2  -- NW -- SE -- SW -- NW
+info 1  -- -- -- -- -- -- -- --
+info 0  -- -- -- SS -- -- -- --
+info     a  b  c  d  e  f  g  h 
+DoneDisplay
+
+move victims 1
+info Ply: 8
+info Color to move: White
+info White Monarch: d0
+info Black Monarch: b7
+info
+info 7  -- ss -- -- -- -- -- --
+info 6  -- NE -- -- -- -- -- --
+info 5  -- -- -- nw -- sw -- sw
+info 4  se -- se -- -- -- se --
+info 3  NE -- -- se NE -- NE --
+info 2  -- NW -- SE -- SW -- NW
+info 1  -- -- -- -- -- -- -- --
+info 0  -- -- -- SS -- -- -- --
+info     a  b  c  d  e  f  g  h 
+DoneDisplay
+
+move victims 0
+info depth 1 move_no 1 time (microsec) 212 nodes 246 nps 1158905
+info score cp -310 pv e3R f5e6
+info depth 1 move_no 2 time (microsec) 547 nodes 646 nps 1180022
+info score cp -248 pv d0c1 f5e6
+info depth 1 move_no 4 time (microsec) 699 nodes 855 nps 1222194
+info score cp -154 pv a3a5 d3d1
+info depth 1 move_no 15 time (microsec) 1451 nodes 1847 nps 1272733
+info score cp -140 pv d0R d3d1
+info depth 1 move_no 17 time (microsec) 1842 nodes 2300 nps 1248492
+info score cp 141 pv d0U
+info depth 2 move_no 1 time (microsec) 75548 nodes 5753 nps 76149
+info score cp 52 pv d0U d3d1 d0c1 c4d3
+info depth 3 move_no 1 time (microsec) 332369 nodes 36055 nps 108478
+info score cp 93 pv d0U d3d1 d0c1 f5e6 c1d2 b7L d2c1 b7a6 a3a5 a6R c1R
+info depth 4 move_no 1 time (microsec) 739791 nodes 120082 nps 162318
+info score cp 88 pv d0U d3d1 d0c1 a4b3 c1d2 b3b1 e3U h5g4
+info depth 5 move_no 1 time (microsec) 2196582 nodes 618406 nps 281530
+info score cp 55 pv d0U d3d1 d0c1 a4b3 c1d2 f5e6 e3U e6d5 b2c1
+info depth 6 move_no 1 time (microsec) 10908180 nodes 4229566 nps 387742
+info score cp 34 pv d0U d3d1 f2e1 f5e6 e1c1 b7L c1d2 a4a2 e3f2 e6d5
+info depth 7 move_no 1 time (microsec) 56497029 nodes 19406226 nps 343491
+info score cp -14 pv d0U d3d1 f2e1 c4d3 e3R d5c4 b6L a4b3 e1c1
+info depth 7 move_no 18 time (microsec) 110166158 nodes 29302823 nps 265987
+info score cp -5 pv b2c1 a4a2 d0U f5L g3f4 c4L f4L a2L
+info depth 7 move_no 33 time (microsec) 164406696 nodes 38090003 nps 231681
+info score cp 33 pv f2e1 g4h3 d0U a4b3 e3d4 h3h1 b6L b3b1 d4d6 c4L
+info depth 8 move_no 1 time (microsec) 196284524 nodes 70885247 nps 361135
+info score cp 124 pv f2e1 g4h3 a3a5 f5e6 h2g3 h3R d0U e6d7 d0c1 d3c2
+info depth 9 move_no 1 time (microsec) 596046889 nodes 387354494 nps 649872
+info score cp 96 pv f2e1 g4h3 a3a5 f5e6 h2g3 b7a6 d0U a6L e3d4 a6b5 d4b4 b5a4 g3h4 d5e4 h4h6
+info depth 10 move_no 1 time (microsec) 1669415709 nodes 1281211261 nps 767460
+info score cp 121 pv f2e1 g4h3 a3a5 h3h1 d0U h5g4 g3f4 c4L f4L f5e4 b6c5 d3c2 d2c3 b7a6 c3c5 g4f5 f4d4 c2a2
+info depth 11 move_no 1 time (microsec) -2147483648 nodes 5474450344 nps 885023
+info score cp 133 pv f2e1 g4h3 a3a5 f5e6 h2g3 d3R d0U e6d7 d2c3 c4L a5b4 h3g4 b4c5
+bestmove f2e1

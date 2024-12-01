@@ -1,0 +1,6 @@
+move d2U
+move b5U
+move d0R
+move b7R
+go depth 11
+quit

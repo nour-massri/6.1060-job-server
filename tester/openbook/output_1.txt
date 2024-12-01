@@ -1,0 +1,48 @@
+info Ply: 1
+info Color to move: Black
+info White Monarch: d0
+info Black Monarch: b7
+info
+info 7  -- nn -- -- -- -- -- --
+info 6  -- -- -- -- -- -- -- --
+info 5  -- sw -- sw -- sw -- sw
+info 4  se -- se -- se -- se --
+info 3  NE -- NE -- NE -- NE --
+info 2  -- NW -- SE -- NW -- NW
+info 1  -- -- -- -- -- -- -- --
+info 0  -- -- -- SS -- -- -- --
+info     a  b  c  d  e  f  g  h 
+DoneDisplay
+
+move victims 0
+info depth 1 move_no 1 time (microsec) 169 nodes 178 nps 1052383
+info score cp -525 pv c4b3 d0U
+info depth 1 move_no 2 time (microsec) 247 nodes 316 nps 1278322
+info score cp -515 pv b7U d0U
+info depth 1 move_no 3 time (microsec) 290 nodes 400 nps 1378265
+info score cp -454 pv b7L d0U
+info depth 1 move_no 5 time (microsec) 342 nodes 503 nps 1468579
+info score cp -56 pv f5L
+info depth 1 move_no 12 time (microsec) 563 nodes 772 nps 1370729
+info score cp -14 pv b5U
+info depth 2 move_no 1 time (microsec) 1252 nodes 1207 nps 963591
+info score cp -144 pv b5U d0R
+info depth 3 move_no 1 time (microsec) 4217 nodes 6658 nps 1578779
+info score cp -7 pv b5U d0R b7R
+info depth 4 move_no 1 time (microsec) 9570 nodes 14515 nps 1516615
+info score cp -78 pv b5U d0R a4b3 c3b4
+info depth 5 move_no 1 time (microsec) 57253 nodes 69237 nps 1209309
+info score cp -1 pv b5U d0R b7R a3b4 f5e6
+info depth 6 move_no 1 time (microsec) 344683 nodes 310685 nps 901364
+info score cp -70 pv b5U d0R b7R a3b4 e4d3 d0c1 d3d1 c1U
+info depth 7 move_no 1 time (microsec) 4125639 nodes 2018287 nps 489205
+info score cp 7 pv b5U a3b4 b7R e3d4 f5e6 g3f4 e4R
+info depth 8 move_no 1 time (microsec) 21296726 nodes 9899977 nps 464859
+info score cp -88 pv b5U c3b4 b7R f2L e4d3 d0U g4f3 d0c1
+info depth 9 move_no 1 time (microsec) -2147483648 nodes 53886916 nps 5333
+info score cp -55 pv b5U c3b4 b7R f2L d5c6 d0U b7R h2g1 f5R g1f2 e4R e3e5 g4f5
+info depth 10 move_no 1 time (microsec) -2147483648 nodes 256077734 nps 24628
+info score cp -72 pv b5U c3b4 b7R f2L e4d3 d0U c4b3 b4b6 b7a6 a3a5 d3d1 b2b4 g4f3 e3d2 f5e4
+info depth 11 move_no 1 time (microsec) -2147483648 nodes 6109097160 nps 320633
+info score cp -15 pv b5U f2e1 f5e6 g3h4 e4d3 h2g3 b7R h4h6 c4b3 d0U b3b1 a3b2 d3L
+bestmove b5U

@@ -1,0 +1,3 @@
+move d2U
+go depth 11
+quit
